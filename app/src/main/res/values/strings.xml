@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">recetario_uno</string>
+
+    <!-- Texto pantalla de bienvenida -->
+    <string name="txt_bienvenido">Bienvenidos</string>
+
+
+    <!-- Texto boton invitado -->
+    <string name="txt_invitado_btn">Invitado</string>
+
+    <!--Textos de las descripciones -->
+
+    <string name="txt_descripcion1">Arepa con carne\n Duración: 30 min\n Dificultad: Media</string>
+    <string name="txt_descripcion2">Sopa de pollo\n Duración: 25 min \n Dificultad: Media</string>
+    <string name="txt_descripcion3">Hamburguesa de carne\n Duración: 20 min \n Dificultad: Baja</string>
+    <string name="txt_descripcion4">Perro caliente\n Duración: 10 min \n Dificultad: Baja </string>
+    <string name="txt_descripcion5">Pastas\n Duración: 15 min \n Dificultad: Baja</string>
+    <string name="txt_descripcion6">Carne molida\n Duración: 30 min \n Dificultad: Media</string>
+    <string name="txt_descripcion7">Pescado guisado\n Duración: 30 min \n Dificultad: Alta</string>
+    <string name="txt_descripcion8">Arroz de pollo\n Duración: 25 min \n Dificultad: Media</string>
+
+    <!--nombres de los usuarios -->
+    <string name="txt_nombre1">Camila Garcia</string>
+    <string name="txt_nombre2">Juan Hernandez</string>
+    <string name="txt_nombre3">Andrea Ramirez</string>
+    <string name="txt_nombre4">Alejandro Uribe</string>
+    <string name="txt_nombre5">Pedro Plata</string>
+    <string name="txt_nombre6">Lady Diana</string>
+    <string name="txt_nombre7">Alex Perea</string>
+    <string name="txt_nombre8">Carlos Lopez</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

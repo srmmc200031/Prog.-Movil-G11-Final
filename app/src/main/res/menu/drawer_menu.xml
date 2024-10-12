@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_inicio"
+        android:fontFamily="@font/breeserif"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_menu"
+        android:fontFamily="@font/breeserif"
+        android:title="Menú" />
+
+    <item
+        android:id="@+id/nav_perfiles"
+        android:fontFamily="@font/breeserif"
+        android:title="Perfiles" />
+
+    <item
+        android:id="@+id/nav_galeria"
+        android:fontFamily="@font/breeserif"
+        android:title="Galeria de platos" />
+    <item
+        android:id="@+id/nav_videos"
+        android:fontFamily="@font/breeserif"
+        android:title="Videos culinarios" />
+    <item
+        android:id="@+id/nav_web"
+        android:fontFamily="@font/breeserif"
+        android:title="Web" />
+
+
+
+</menu>

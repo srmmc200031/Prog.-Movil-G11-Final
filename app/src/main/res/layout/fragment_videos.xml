@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Video 1 -->
+
+        <Button
+            android:id="@+id/buttonFullScreen3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[ ]"
+            app:layout_constraintBottom_toTopOf="@+id/guideline13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/buttonRewind3"
+            app:layout_constraintTop_toBottomOf="@+id/videoView3"
+            app:layout_constraintVertical_bias="0.071"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonRewind3"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="◄◄ "
+            app:layout_constraintBottom_toTopOf="@+id/guideline13"
+            app:layout_constraintStart_toEndOf="@+id/buttonForward3"
+            app:layout_constraintTop_toBottomOf="@+id/videoView3"
+            app:layout_constraintVertical_bias="0.071"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonForward3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="►►"
+            app:layout_constraintBottom_toTopOf="@+id/guideline13"
+            app:layout_constraintStart_toEndOf="@+id/buttonPause3"
+            app:layout_constraintTop_toBottomOf="@+id/videoView3"
+            app:layout_constraintVertical_bias="0.071"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonPause3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="||"
+            app:layout_constraintBottom_toTopOf="@+id/guideline13"
+            app:layout_constraintStart_toEndOf="@+id/buttonPlay3"
+            app:layout_constraintTop_toBottomOf="@+id/videoView3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonPlay3"
+            android:layout_width="64dp"
+            android:layout_height="51dp"
+            android:text="▶"
+            app:layout_constraintBottom_toTopOf="@+id/guideline13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <VideoView
+            android:id="@+id/videoView3"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="440dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline16" />
+
+        <Button
+            android:id="@+id/buttonPlay1"
+            android:layout_width="67dp"
+            android:layout_height="50dp"
+            android:text="▶"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/videoView1" />
+
+        <Button
+            android:id="@+id/buttonPause1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="||"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintStart_toEndOf="@id/buttonPlay1"
+            app:layout_constraintTop_toBottomOf="@id/videoView1" />
+
+        <Button
+            android:id="@+id/buttonForward1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="►►"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintStart_toEndOf="@id/buttonPause1"
+            app:layout_constraintTop_toBottomOf="@id/videoView1" />
+
+        <Button
+            android:id="@+id/buttonRewind1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="◄◄"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintStart_toEndOf="@id/buttonForward1"
+            app:layout_constraintTop_toBottomOf="@id/videoView1" />
+
+        <Button
+            android:id="@+id/buttonFullScreen1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[ ]"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintStart_toEndOf="@id/buttonRewind1"
+            app:layout_constraintTop_toBottomOf="@id/videoView1" />
+
+        <!-- Video 2 -->
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+        <Button
+            android:id="@+id/buttonPlay2"
+            android:layout_width="64dp"
+            android:layout_height="51dp"
+            android:text="▶"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/videoView2" />
+
+        <Button
+            android:id="@+id/buttonPause2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="||"
+            app:layout_constraintStart_toEndOf="@id/buttonPlay2"
+            app:layout_constraintTop_toBottomOf="@id/videoView2" />
+
+        <Button
+            android:id="@+id/buttonForward2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="►►"
+            app:layout_constraintStart_toEndOf="@id/buttonPause2"
+            app:layout_constraintTop_toBottomOf="@id/videoView2" />
+
+        <Button
+            android:id="@+id/buttonRewind2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="◄◄ "
+            app:layout_constraintStart_toEndOf="@id/buttonForward2"
+            app:layout_constraintTop_toBottomOf="@id/videoView2" />
+
+        <Button
+            android:id="@+id/buttonFullScreen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[ ]"
+            app:layout_constraintStart_toEndOf="@id/buttonRewind2"
+            app:layout_constraintTop_toBottomOf="@id/videoView2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="317dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="220dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="123dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/log"
+            app:layout_constraintBottom_toTopOf="@+id/guideline17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline18"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button_three_dots"
+            android:layout_width="80dp"
+            android:layout_height="57dp"
+            android:text="⋮"
+            android:fontFamily="@font/breeserif"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/guideline18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.018"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline26"
+            app:layout_constraintVertical_bias="0.563" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="680dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="328dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/breeserif"
+            android:text="Videos Culinarios"
+            android:textColor="#7F7CE9"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/videoView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.385" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perro caliente"
+            android:fontFamily="@font/breeserif"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/videoView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline16"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hamburguesa"
+            android:fontFamily="@font/breeserif"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/videoView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.022"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline19"
+            app:layout_constraintVertical_bias="0.76" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="1041dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="1389dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="1332dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pastas"
+            android:textSize="25dp"
+            android:fontFamily="@font/breeserif"
+            app:layout_constraintBottom_toTopOf="@+id/videoView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.018"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline4"
+            app:layout_constraintVertical_bias="0.711" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="76dp" />
+
+        <!-- Aquí puedes repetir el patrón para Video 3 y Video 4 -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
